@@ -1,172 +1,171 @@
 * {
 	margin: 0;
 	padding: 0;
-}
-
-body {
+  }
+  
+  body {
 	font-size: 1em;
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	background: #A4A4A4;
-
-}
-
-#links {
+  }
+  
+  #links {
 	background: #FF4000;
 	padding: 10px;
-}
-
-/*
-#logo {
+  }
+  
+  /*
+  #logo {
 	width: 1%;
 	height: 10px;
-	
-        margin-left: 0em;
-        margin-top: 0em;
-        margin-right: 0em;
-        margin-bottom: 0em; 
-}*/
-
-/* Layout */
-
-#redes{
+	margin-left: 0em;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+  }
+  */
+  
+  /* Layout */
+  
+  #redes {
 	background: #FF4000;
 	text-align: right;
-}
-#menu {
+  }
+  
+  #menu {
 	background: #FF4000;
 	padding: 15px;
 	text-align: center;
-	box-shadow:  2px 2px 1px 1px black;
-
-}
-
-
-#conteudo {
-	width: 920px;
-	margin: 0 350px;
-	text-align: center;
-	color: black;
-	padding: 15px;
-
-}
-
-#postagens {
-	width: 600px;
-	height: auto;
-	margin-top: 10px;
-}
-
-/*
-.conteudolateral {
+	box-shadow: 2px 2px 1px 1px black;
+  
+  }
+  
+  #conteudo {
+	width: 100%;
+	margin: 0 auto; /* Centraliza o conteúdo */
+  }
+  
+  #postagens {
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+	width: 50%;
+	margin: 0 auto; /* Centraliza as postagens */
+  }
+  
+  /*
+  .conteudolateral {
 	color: black;
 	background: white;
 	padding: 10px;
 	margin-top: 10px;
 	margin-bottom: 20px;
 	border-radius: 20px;
-	box-shadow:  2px 2px 1px 1px black;
-}
-
-
-.postagenslateral {
+	box-shadow: 2px 2px 1px 1px black;
+  }
+  
+  
+  .postagenslateral {
 	color: black;
 	font-size: 0.8em;
 	padding: 5px;
 	border-bottom: 3px dotted #CCC;
-}
-
-#lateral {
+  }
+  
+  #lateral {
 	width: 240px;
 	float: right;
-}*/
-
-.posts{
+  }
+  */
+  
+  .posts {
+	display: flex;
+	flex-direction: column;
 	padding: 20px;
 	margin-bottom: 20px;
 	background: white;
 	border-radius: 50px;
-	box-shadow:  2px 2px 1px 3px black;
+	box-shadow: 2px 2px 1px 3px black;
 	color: black;
-
-}
-
-/* Textos do Menu */
-
-h1 {
+  }
+  
+  /* Textos do Menu */
+  
+  h1 {
 	color: black;
 	font-size: 2.5em;
-}
-
-/* Titulo das Postagens */
-
-h2 {
+  }
+  
+  /* Titulo das Postagens */
+  
+  h2 {
 	color: #FF8000;
-}
-
-h3 {
+  }
+  
+  h3 {
 	color: black;
 	background: #CCC;
 	padding: 5px;
-}
-/* Geral */
-.datapost {
+  }
+  
+  /* Geral */
+  
+  .datapost {
 	font-size: 0.8em;
 	border-bottom: solid #f4f4f4;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	display: block;
-}
-
-
-/* Links formatdos */
-a:hover {
+  }
+  
+  
+  /* Links formatdos */
+  
+  a:hover {
 	text-decoration: underline;
 	transition: 1s;
-}
-
- a:link, a:visited {
-	color: orange;
-	
-}
-
-#links a:hover {
+  }
+  
+  a:link, a:visited {
+	color: #FF8000;
+  }
+  
+  #links a:hover {
 	text-decoration: underline;
 	background: #FF8000;
 	text-decoration: none;
-}
-.postagenslateral a:hover {
-	text-decoration: underline;
-	background: #FF8000;
-	text-decoration: none;
-	color: white;
-	transition: 1.5s;
-}
-
-#links a:link, #links a:visited {
+  }
+  
+  #links a:link, #links a:visited {
 	color: #fff;
 	padding: 8px 12px;
-}
-a {
+  }
+  
+  a {
 	text-decoration: none;
-	
-
-}
-
-/* Logo */
-
-.logobranco{
+  }
+  
+  /* Logo */
+  
+  .logobranco {
 	color: white;
-}
-
- /* Fim dos Textos do Menu */
-
- footer{
+  }
+  
+  /* Fim dos Textos do Menu */
+  
+  footer {
 	text-align: center;
 	background: #CCC;
 	padding: 15px;
 	clear: both;
-}
-h1 {
+  }
+  
+  h1 {
 	color: grey;
 	padding: -1;
-}
+  }
+  
+	/* Tamanho da fonte */
+	body {
+	  font-size: 0.8em;
+	}  
