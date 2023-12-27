@@ -14,16 +14,15 @@
 	padding: 10px;
   }
   
-  /*
-  #logo {
-	width: 1%;
-	height: 10px;
-	margin-left: 0em;
-	margin-top: 0em;
-	margin-right: 0em;
-	margin-bottom: 0em;
+  
+  .logo {
+	
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-bottom: 10px;
   }
-  */
+  
   
   /* Layout */
   
@@ -53,30 +52,7 @@
 	margin: 0 auto; /* Centraliza as postagens */
   }
   
-  /*
-  .conteudolateral {
-	color: black;
-	background: white;
-	padding: 10px;
-	margin-top: 10px;
-	margin-bottom: 20px;
-	border-radius: 20px;
-	box-shadow: 2px 2px 1px 1px black;
-  }
-  
-  
-  .postagenslateral {
-	color: black;
-	font-size: 0.8em;
-	padding: 5px;
-	border-bottom: 3px dotted #CCC;
-  }
-  
-  #lateral {
-	width: 240px;
-	float: right;
-  }
-  */
+
   
   .posts {
 	display: flex;
