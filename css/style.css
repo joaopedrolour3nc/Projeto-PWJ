@@ -145,3 +145,35 @@
 	body {
 	  font-size: 0.8em;
 	}  
+
+	@media (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+}
+
+footer {
+	background-color: #CCC;
+	padding: 15px;
+	clear: both;
+  }
+  
+  .redes {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .redes li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 10px;
+	/*box-shadow: 2px 2px 1px 3px black; */ 
+}
+  
+  @media (max-width: 768px) {
+	.redes {
+	  text-align: center;
+	}
+  }
+  
