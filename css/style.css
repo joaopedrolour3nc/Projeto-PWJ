@@ -157,6 +157,7 @@ footer {
 	background-color: #CCC;
 	padding: 15px;
 	clear: both;
+	position: sticky;
   }
   
   .redes {
@@ -169,7 +170,6 @@ footer {
 	display: inline-block;
 	margin-right: 10px;
 	margin-top: 10px;
-	/*box-shadow: 2px 2px 1px 3px black; */ 
 }
   
   @media (max-width: 768px) {
