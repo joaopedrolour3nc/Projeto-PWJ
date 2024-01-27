@@ -20,6 +20,8 @@
 	float: left;
 	width: 60px;
 	height: 60px;
+	margin: 10px 20px 15px 20px;
+	border-radius: 15px;
 	flex-direction: column;
 	margin-bottom: 10px;
   }	
@@ -67,6 +69,9 @@
 	color: white;
   }
 
+  .posts a {
+	color: #030412;
+  }
   .videos {
 	width: 700px;
 	height: 400px; 
@@ -105,13 +110,15 @@
   
   /* Links formatdos */
   
-  a:hover {
+  a:hover .posts a{
 	text-decoration: underline;
 	transition: 1s;
+
   }
   
   a:link, a:visited {
 	color: #F7FE2E;
+	
   }
   
   #links a:hover {
